@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCPX</title>
+
+    <link rel="stylesheet" href="css/headerStyle.css">
+    <link rel="stylesheet" href="css/bodyStyle.css">
+    
+
+</head>
+<body>
+    <header>
+        <img src="./img/LogoCCXP.png" alt="Logo CCXP22 de 01 a 04 de Dezembro">
+    </header>
+
+    <section id="main">
+        <div id="text">
+                <h1 class="line1">REVIVA O ÉPICO</h1>
+                
+                <h2 class="line2">DE 01 A 04 DE DEZEMBRO</h2>
+
+            <p>
+                Você consegue sentir? É aquela sensação de <br>
+                finalmente poder falar em voz alta: "estamos <br>
+                casa". Sim, em dezembro de 2022, <br>
+                teremos a volta da CCXP física. Mas não será <br>
+                qualquer CCXP, vai ser a maior de todos os <br>
+                tempos. Prepare-se para visitar seus <br>
+                universos favoritos, explorar o Artists' Valley, <br>
+                se emocionar nos auditórios e encontrar <br>
+                aventuras épicas a cada passo pelos nossos corredores.
+            </p>
+        </div>
+        <div id="right">
+            <div id="countdown">
+                    <h1 id="days"></h1>               
+                    <h1 id="hours"></h1>                
+                    <h1 id="minutes"></h1>                
+                    <h1 id="secs"></h1>
+            </div>
+            <div>
+                <p>PARA A MAIOR CCXP DE TODOS OS TEMPOS</p>
+            </div>
+            <div > 
+                <video id="video" src="./img/Arlequina.mp4" alt="Vídeo CCXP" loop autoplay muted></video>
+            </div>
+        </div>  
+    </section>
+    <p id="footer">AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</p>
+    <section id="tickets">
+        <div class="img">
+            <img src="./img/quinta.png" onclick="selectCard('#quinta')" onmouseover="highlightCard('#quinta')" onmouseout="highlightCard('#quinta')" id="quinta" alt="Quinta-feira">
+            <img src="./img/sexta.png" onclick="selectCard('#sexta')" onmouseover="highlightCard('#sexta')" onmouseout="highlightCard('#sexta')" id="sexta" alt="Sexta-Feira">
+            <img src="./img/sabado.png" onclick="selectCard('#sabado')" onmouseover="highlightCard('#sabado')" onmouseout="highlightCard('#sabado')" id="sabado" alt="Sábado">
+            <img src="./img/domingo.png" onclick="selectCard('#domingo')" onmouseover="highlightCard('#domingo')" onmouseout="highlightCard('#domingo')" id= "domingo" alt="Domingo"> 
+        </div>
+        <button onclick="showSelectedCards()">GARANTA O SEU!</button>
+    </section>   
+
+    <script src="scripts/index.js"></script>
+    
+</body>
+</html>

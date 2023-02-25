@@ -1,0 +1,13 @@
+header{
+    background-color:rgba(255, 217, 0, 1);    
+    width: 100%;
+    height: 100%;
+}
+
+header img {
+    margin-left: 50px;
+    margin-top: 27px;
+    margin-bottom: 28px;
+    width: 220px;
+    height: 63px;
+}
